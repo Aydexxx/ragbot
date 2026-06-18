@@ -128,21 +128,6 @@ conversation, and grounding subsystems in detail.
 
 ---
 
-## Screenshots
-
-> _Placeholder images — replace the files in `docs/screenshots/` with real
-> captures._
-
-| Multi-document query | Clickable citations |
-| --- | --- |
-| ![Multi-document query — an answer drawn from several files with the "Answer drawn from N documents" attribution line](docs/screenshots/multi-doc-query.png) | ![Clickable `[n]` citations linking to source cards with passage, page, and confidence bar](docs/screenshots/citations.png) |
-
-| Insufficient-context honesty | Conversation thread |
-| --- | --- |
-| ![The honest "the documents don't clearly answer this" state showing the closest related material](docs/screenshots/insufficient-context.png) | ![A multi-turn chat thread with a follow-up rewritten into a standalone question](docs/screenshots/chat-thread.png) |
-
----
-
 ## Local setup
 
 ### Prerequisites
