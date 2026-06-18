@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables (secrets)
+.env
+
+# Vector store persistence
+chroma_db/
+
+# Uploaded documents
+uploads/
+
+# Node / frontend dependencies and build output
+node_modules/
+frontend/dist/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# AI assistant tooling (local config, not part of the project)
+.claude/

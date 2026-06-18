@@ -1,0 +1,14 @@
+# Pinned to versions verified to install on Python 3.14 (prebuilt cp314 wheels).
+# chromadb 1.x drops the native chroma-hnswlib dependency, avoiding a Rust/C++
+# build step that fails on bleeding-edge Python.
+fastapi==0.137.1
+uvicorn[standard]==0.49.0
+chromadb==1.5.9
+pydantic==2.13.4
+pydantic-settings==2.14.1
+python-multipart==0.0.32
+pypdf==6.13.3
+httpx==0.28.1
+openai==2.43.0
+pytest==9.1.0
+pytest-asyncio==1.4.0
