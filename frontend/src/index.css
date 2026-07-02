@@ -9,14 +9,15 @@ body {
   background-color: #0b0d12;
 }
 
-/* Smooth highlight flash used when a citation link scrolls to its source. */
+/* Smooth highlight flash used when a citation link scrolls to its source.
+   Uses RAGBot's teal signature accent. */
 @keyframes citation-flash {
   0%,
   100% {
     background-color: transparent;
   }
   30% {
-    background-color: rgb(99 102 241 / 0.25);
+    background-color: rgb(20 184 166 / 0.25);
   }
 }
 
@@ -46,4 +47,24 @@ body {
   .turn-enter {
     animation: none;
   }
+}
+
+/* Slim, unobtrusive scrollbar for the chat thread and sidebar so long
+   conversations feel calm rather than cluttered. */
+.thin-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(51 65 85) transparent;
+}
+
+.thin-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgb(51 65 85);
+  border-radius: 9999px;
+}
+
+.thin-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
 }

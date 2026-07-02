@@ -9,7 +9,7 @@ interface DocumentScopeSelectorProps {
 
 const PILL_BASE =
   'max-w-[180px] truncate rounded-full px-2.5 py-1 text-xs font-medium transition disabled:cursor-not-allowed disabled:opacity-50'
-const PILL_ACTIVE = 'bg-indigo-500/30 text-indigo-200'
+const PILL_ACTIVE = 'bg-teal-500/30 text-teal-200'
 const PILL_INACTIVE = 'bg-slate-800 text-slate-400 hover:bg-slate-700'
 
 /** Scopes a question to all indexed documents (default, empty selection) or

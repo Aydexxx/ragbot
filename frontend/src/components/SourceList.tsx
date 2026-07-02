@@ -68,7 +68,7 @@ function SourceCard({
     >
       <div className="flex items-center justify-between gap-2">
         <div className="flex min-w-0 items-center gap-2 text-sm">
-          <span className="inline-flex h-5 min-w-5 shrink-0 items-center justify-center rounded-full bg-indigo-500/20 px-1 text-xs font-medium text-indigo-300">
+          <span className="inline-flex h-5 min-w-5 shrink-0 items-center justify-center rounded-full bg-teal-500/20 px-1 text-xs font-medium text-teal-300">
             {source.citation}
           </span>
           <span className="truncate font-medium text-slate-200">
@@ -106,7 +106,7 @@ function SourceCard({
         <button
           type="button"
           onClick={() => setExpanded((prev) => !prev)}
-          className="mt-1 text-xs text-indigo-300 hover:underline"
+          className="mt-1 text-xs text-teal-300 hover:underline"
         >
           {expanded ? 'Show less' : 'Show more'}
         </button>
@@ -126,7 +126,7 @@ function locator(source: Source): string {
 
 function confidenceColor(score: number): string {
   if (score >= 0.75) return 'bg-emerald-400'
-  if (score >= 0.5) return 'bg-indigo-400'
+  if (score >= 0.5) return 'bg-teal-400'
   return 'bg-amber-400'
 }
 

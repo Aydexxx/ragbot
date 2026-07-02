@@ -9,7 +9,7 @@ interface BannerProps {
 }
 
 const VARIANT_CLASSES: Record<BannerVariant, string> = {
-  info: 'border-indigo-500/40 bg-indigo-500/10 text-indigo-200',
+  info: 'border-teal-500/40 bg-teal-500/10 text-teal-200',
   warning: 'border-amber-500/40 bg-amber-500/10 text-amber-200',
   error: 'border-rose-500/40 bg-rose-500/10 text-rose-200',
 }

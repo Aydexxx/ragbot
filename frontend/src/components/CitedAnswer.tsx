@@ -31,7 +31,7 @@ export function CitedAnswer({
           key={`citation-${match.index}`}
           type="button"
           onClick={() => onCitationClick(citation)}
-          className="mx-0.5 inline-flex h-5 min-w-5 -translate-y-px items-center justify-center rounded-full bg-indigo-500/20 px-1 text-xs font-medium text-indigo-300 transition hover:bg-indigo-500/40"
+          className="mx-0.5 inline-flex h-5 min-w-5 -translate-y-px items-center justify-center rounded-full bg-teal-500/20 px-1 text-xs font-medium text-teal-300 transition hover:bg-teal-500/40"
         >
           {citation}
         </button>,

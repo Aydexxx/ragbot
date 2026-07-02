@@ -13,7 +13,7 @@ export function Spinner({ size = 'md', className = '' }: SpinnerProps) {
     <span
       role="status"
       aria-label="Loading"
-      className={`inline-block animate-spin rounded-full border-slate-600 border-t-indigo-400 ${SIZE_CLASSES[size]} ${className}`}
+      className={`inline-block animate-spin rounded-full border-slate-600 border-t-teal-400 ${SIZE_CLASSES[size]} ${className}`}
     />
   )
 }

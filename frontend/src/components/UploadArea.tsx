@@ -62,7 +62,7 @@ export function UploadArea({
           disabled
             ? 'border-slate-700 bg-slate-800/30 opacity-60'
             : isDragging
-              ? 'border-indigo-400 bg-indigo-500/10'
+              ? 'border-teal-400 bg-teal-500/10'
               : 'border-slate-700 bg-slate-800/40 hover:border-slate-600'
         }`}
       >
@@ -75,7 +75,7 @@ export function UploadArea({
             className={`mt-2 inline-flex cursor-pointer items-center rounded-md px-3 py-1.5 text-sm font-medium transition ${
               disabled
                 ? 'cursor-not-allowed bg-slate-700 text-slate-400'
-                : 'bg-indigo-500 text-white hover:bg-indigo-400'
+                : 'bg-teal-500 text-white hover:bg-teal-400'
             }`}
           >
             Browse files
@@ -142,7 +142,7 @@ export function UploadArea({
               {task.phase === 'uploading' && (
                 <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-slate-700">
                   <div
-                    className="h-full rounded-full bg-indigo-400 transition-[width]"
+                    className="h-full rounded-full bg-teal-400 transition-[width]"
                     style={{ width: `${task.percent}%` }}
                   />
                 </div>
@@ -150,7 +150,7 @@ export function UploadArea({
 
               {task.phase === 'indexing' && (
                 <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-slate-700">
-                  <div className="h-full w-1/3 animate-pulse rounded-full bg-indigo-400" />
+                  <div className="h-full w-1/3 animate-pulse rounded-full bg-teal-400" />
                 </div>
               )}
 
